@@ -26,7 +26,7 @@ ssh <username>@pve01.lab.internal
 su -
 ```
 
-> [!INFO]
+> [!NOTE]
 > Update all variables to suit your needs and adjust the network interfaces to match your environment.
 > 
 > The Proxmox `net0` interface is paired with the Palo Alto VM's management interface. The remaining interfaces are paired one-to-one as follows:
